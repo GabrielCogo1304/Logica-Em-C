@@ -40,7 +40,7 @@ void exercicio01()
     scanf("%f", &n2);
 
     media = (n1 * 2 + n2 * 3) / 5;
-    printf("A nota 1 = %f, a nota 2 = %f e a média ponderada = %f\n", n1, n2, media);
+    printf("A nota 1 = %.2f, a nota 2 = %.2f e a média ponderada = %.2f\n", n1, n2, media);
 }
 void exercicio02()
 {
@@ -53,7 +53,7 @@ void exercicio02()
     comissao = vendas * 0.04;
     salario_final = salario + comissao;
 
-    printf("O salario fixo = %f, o valor das vendas = %f, a comissão = %f e o salario final = %f\n", salario, vendas, comissao, salario_final);
+    printf("O salario fixo = %.2f, o valor das vendas = %.2f, a comissão = %.2f e o salario final = %f\n", salario, vendas, comissao, salario_final);
 }
 void exercicio03()
 {
