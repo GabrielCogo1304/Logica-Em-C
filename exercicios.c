@@ -2,35 +2,7 @@
 #include <math.h>
 int main() {
 int op;
-do {
-printf("\nLista 01\n");
-printf("\nEscolha o número do exercício: ");
-scanf("%d", &op);
-switch (op) {
-case 1: exercicio01(); break;
-case 2: exercicio02(); break;
-case 3: exercicio03(); break;
-case 4: exercicio04(); break;
-case 5: exercicio05(); break;
-case 6: exercicio06(); break;
-case 7: exercicio07(); break;
-case 8: exercicio08(); break;
-case 9: exercicio09(); break;
-case 10: exercicio10(); break;
-case 11: exercicio11(); break;
-case 12: exercicio12(); break;
-case 13: exercicio13(); break;
-case 14: exercicio14(); break;
-case 15: exercicio15(); break;
-case 16: exercicio16(); break;
-case 17: exercicio17(); break;
-case 18: exercicio18(); break;
-case 19: exercicio19(); break;
-case 20: exercicio20(); break;
-}
-} while (op != 0);
-return 0;
-}
+    
 void exercicio01()
 {
     float n1, n2, media;
@@ -322,4 +294,34 @@ void exercicio20()
     parelelo = (res1 * res2) / (res1 + res2);
 
     printf("A resistência 1 = %f, a resistência 2 = %f, a resistência em série = %f e a resistência em paralelo = %f", res1, res2, serie, parelelo);
+}
+
+do {
+printf("\nLista 01\n");
+printf("\nEscolha o número do exercício: ");
+scanf("%d", &op);
+switch (op) {
+case 1: exercicio01(); break;
+case 2: exercicio02(); break;
+case 3: exercicio03(); break;
+case 4: exercicio04(); break;
+case 5: exercicio05(); break;
+case 6: exercicio06(); break;
+case 7: exercicio07(); break;
+case 8: exercicio08(); break;
+case 9: exercicio09(); break;
+case 10: exercicio10(); break;
+case 11: exercicio11(); break;
+case 12: exercicio12(); break;
+case 13: exercicio13(); break;
+case 14: exercicio14(); break;
+case 15: exercicio15(); break;
+case 16: exercicio16(); break;
+case 17: exercicio17(); break;
+case 18: exercicio18(); break;
+case 19: exercicio19(); break;
+case 20: exercicio20(); break;
+}
+} while (op != 0);
+return 0;
 }
